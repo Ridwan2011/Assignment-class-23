@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    height: 75px;
+    position: relative;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 11px;
+}
+
+a:hover{
+    color: #fff;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    border-bottom: 1px solid #fff;
+    margin-right: 10px;
+    font-size: 15px;
+    position: relative;
+    top: 8px;
+}
+
+
+.header-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: center;
+}
+
+
+.center-1{
+    height: 200px;
+    width: 100%;
+    border: 1px solid #008000;
+}
+
+.center-2{
+    height: 200px;
+    width: 100%;
+    border: 1px solid #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-3{
+    height: 200px;
+    width: 100%;
+    border: 1px solid #008000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.span-1{
+    background: red;
+    width: 53px;
+    color: #fff;
+    display: block;
+    height: 40px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+
+.paragraph{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paragraph p{
+    text-align: justify;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.p-item{
+    border: 1px solid #008000;
+    padding: 10px;
+    width:221px;
+}
+
+
+.p-item-1{
+    border: 1px solid #008000;
+    padding: 10px;
+    position: relative;
+    left: 0px;
+    font-weight: 700;
+    height: 133px;
+    width: 460px;
+}
+
+.pp-1{
+    width: 375px;
+    position: relative;
+    left:30px; 
+}
+
+
+.complax-item-1{
+    border: 1px solid #008000;
+    width: 100%;
+    height: 130px;
+    padding-top: 20px;
+}
+
+.span-flex{
+    background: red;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #008000;
+}
+
+
+.span-flex-item{
+    margin: 5px;
+    left: 18px;
+    position: relative;
+    top: 10px;
+}
+
+.span-complax-1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 13px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.span-complax-3-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.span-complax-3-3{
+    display: flex;
+    justify-content: flex-end;
+}
